@@ -1,0 +1,35 @@
+cells:
+  - kind: 2
+    languageId: sql
+    value: create DATABASE test666;
+    metadata: {}
+  - kind: 2
+    languageId: sql
+    value: use test666;
+    metadata: {}
+  - kind: 2
+    languageId: sql
+    value: "CREATE TABLE TB_USER(\r
+
+      \    userno INT PRIMARY KEY,\r
+
+      \    username varchar(20) NOT NULL,\r
+
+      \    password VARCHAR(20),\r
+
+      \    job varchar(20),\r
+
+      \    sal INT\r
+
+      );"
+    metadata: {}
+  - kind: 2
+    languageId: sql
+    value: ""
+    metadata: {}
+metadata:
+  conn:
+    id: bRBvvgctg0c-yFq0xM4yc
+    name: localhost
+  database: test666
+  schema: ""
